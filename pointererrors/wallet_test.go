@@ -100,6 +100,7 @@ func assertBalance(t testing.TB, wallet Wallet, want Bitcoin) {
 	}
 }
 
+// this is test
 // assertNoError checks that no error occurred when it was not expected.
 // If an error is found, the test fails immediately with t.Fatal.
 func assertNoError(t testing.TB, got error) {
